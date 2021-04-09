@@ -55,7 +55,11 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
+<<<<<<< Updated upstream
                  "value":"..\/Lyon\/lyon.json"
+=======
+                 "value":"jz.json"
+>>>>>>> Stashed changes
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -151,11 +155,19 @@
          "columns":16,
          "firstgid":1,
          "image":"tilesets_deviant_milkian_1.png",
+<<<<<<< Updated upstream
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
          "name":"office_1",
          "spacing":0,
+=======
+         "imageheight":544,
+         "imagewidth":544,
+         "margin":1,
+         "name":"office_1",
+         "spacing":2,
+>>>>>>> Stashed changes
          "tilecount":256,
          "tileheight":32,
          "tiles":[
@@ -876,11 +888,19 @@
          "columns":8,
          "firstgid":257,
          "image":"floortileset.png",
+<<<<<<< Updated upstream
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
          "name":"floortileset",
          "spacing":0,
+=======
+         "imageheight":272,
+         "imagewidth":272,
+         "margin":1,
+         "name":"floortileset",
+         "spacing":2,
+>>>>>>> Stashed changes
          "tilecount":64,
          "tileheight":32,
          "tiles":[
@@ -899,11 +919,19 @@
          "columns":40,
          "firstgid":321,
          "image":"gfx\/Overworld.png",
+<<<<<<< Updated upstream
          "imageheight":576,
          "imagewidth":640,
          "margin":0,
          "name":"nature",
          "spacing":0,
+=======
+         "imageheight":648,
+         "imagewidth":720,
+         "margin":1,
+         "name":"nature",
+         "spacing":2,
+>>>>>>> Stashed changes
          "tilecount":1440,
          "tileheight":16,
          "tiles":[
