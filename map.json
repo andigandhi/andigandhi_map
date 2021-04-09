@@ -37,7 +37,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"outside.json"
+                 "value":"Garten/Garten.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -55,11 +55,8 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-<<<<<<< Updated upstream
-                 "value":"..\/Lyon\/lyon.json"
-=======
+                 "value":"Garten/Garten.json"
                  "value":"jz.json"
->>>>>>> Stashed changes
                 }],
          "type":"tilelayer",
          "visible":true,
