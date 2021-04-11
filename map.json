@@ -37,7 +37,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"http:\/\/andigandhi.ddns.net:8000\/mpd.m3u"
+                 "value":"http:\/\/andigandhi.ddns.net:8000\/mpd.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
