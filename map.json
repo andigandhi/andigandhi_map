@@ -85,7 +85,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"http:\/\/andigandhi.ddns.net:8000\/mpd.mp3"
+                 "value":"https:\/\/radio80k.out.airtime.pro\/radio80k_a"
                 }],
          "type":"tilelayer",
          "visible":true,
