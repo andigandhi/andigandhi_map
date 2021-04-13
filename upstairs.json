@@ -110,7 +110,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"http:\/\/andigandhi.ddns.net:8000\/mpd.mp3"
+                 "value":"andigandhi.ga\/content\/jz\/audio.php"
                 }],
          "type":"tilelayer",
          "visible":true,
