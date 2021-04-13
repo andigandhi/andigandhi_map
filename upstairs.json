@@ -110,7 +110,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"andigandhi.ga\/content\/jz\/audio.php"
+                 "value":"https:\/\/andigandhi.ga\/content\/jz\/audio.php"
                 }],
          "type":"tilelayer",
          "visible":true,
