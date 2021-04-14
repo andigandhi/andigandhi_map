@@ -53,6 +53,11 @@
                  "name":"jitsiTriggerMessage",
                  "type":"string",
                  "value":"LEERTASTE dr\u00fccken um dem Videochat beizutreten :)"
+                }, 
+                {
+                 "name":"jitsiUrl",
+                 "type":"string",
+                 "value":"meet.ffmuc.net"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -81,6 +86,11 @@
                  "name":"jitsiTriggerMessage",
                  "type":"string",
                  "value":"LEERTASTE dr\u00fccken um dem Videochat beizutreten :)"
+                }, 
+                {
+                 "name":"jitsiUrl",
+                 "type":"string",
+                 "value":"meet.ffmuc.net"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -126,14 +136,14 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"audioLoop",
-                 "type":"bool",
-                 "value":true
+                 "name":"audioVolume",
+                 "type":"int",
+                 "value":5
                 }, 
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"sound\/outside.mp3"
+                 "value":"https:\/\/andigandhi.ga\/content\/jz\/audio.php"
                 }],
          "type":"tilelayer",
          "visible":true,
