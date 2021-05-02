@@ -385,6 +385,63 @@
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":600,
+                         "tileid":164
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":96
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":97
+                        }],
+                 "id":164
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":600,
+                         "tileid":180
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":112
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":113
+                        }],
+                 "id":180
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":1000,
+                         "tileid":181
+                        }, 
+                        {
+                         "duration":721,
+                         "tileid":98
+                        }],
+                 "id":181
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":1000,
+                         "tileid":181
+                        }, 
+                        {
+                         "duration":721,
+                         "tileid":114
+                        }],
+                 "id":197
+                }],
          "tilewidth":32
         }, 
         {
@@ -421,6 +478,19 @@
          "spacing":0,
          "tilecount":120,
          "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":300,
+                         "tileid":115
+                        }, 
+                        {
+                         "duration":150,
+                         "tileid":116
+                        }],
+                 "id":116
+                }],
          "tilewidth":32
         }, 
         {
