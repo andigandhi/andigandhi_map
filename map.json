@@ -127,7 +127,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"jo.json"
+                 "value":"gang.json"
                 }],
          "type":"tilelayer",
          "visible":true,
