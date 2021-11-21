@@ -5,22 +5,21 @@
 
 let GuMoPopup;
 
-// Open the popup when we enter a given zone
+// Begrüßungsnachricht
 GuMoPopup = WA.onInit().then(() => {
-    WA.ui.openPopup("start-popup", 'Hallo '+WA.player.name+', schön dass du da bist!', [{
-        label: "OK",
-        className: "primary",
-        callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-        }
-    }]);
+	const triggerMessage = WA.ui.displayActionMessage({
+		message: 'Hallo '+WA.player.name+', schön dass du da bist!',
+		callback: () => {
+			WA.chat.sendChatMessage("confirmed", "trigger message logic")
+		}
+	});
+
+	setTimeout(() => {
+		triggerMessage.remove();
+	}, 2000)
 });
 
-// Close the popup when we leave the zone.
-WA.room.onLeaveZone('start', () => {
-    GuMoPopup.close();
-});
+
 
 
 
