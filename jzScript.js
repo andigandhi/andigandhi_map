@@ -50,13 +50,16 @@ var silentMusic = {
 
 WA.onInit().then(() => {
     jzMusic.play(loudMusic);
+	WA.chat.sendChatMessage('init', 'andigandhi');
 })
 
 WA.room.onEnterZone('music', () => {
     jzMusic.play(loudMusic);
+	WA.chat.sendChatMessage('enter zone', 'andigandhi');
 })
 
 WA.room.onLeaveZone('music', () => {
     jzMusic.play(silentMusic);
+	WA.chat.sendChatMessage('exit zone', 'andigandhi');
 })
 
