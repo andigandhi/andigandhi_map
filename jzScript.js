@@ -14,8 +14,8 @@ GuMoPopup = WA.room.onEnterZone('start', () => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
         }
-    });
-}]);
+    }]);
+});
 
 // Close the popup when we leave the zone.
 WA.room.onLeaveZone('start', () => {
