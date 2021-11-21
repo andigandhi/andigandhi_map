@@ -7,7 +7,7 @@ let GuMoPopup;
 
 // Open the popup when we enter a given zone
 GuMoPopup = WA.onInit().then(() => {
-    WA.ui.openPopup("start-popup", 'Hallo, schön dass du da bist!', [{
+    WA.ui.openPopup("start-popup", 'Hallo '+WA.player.name+', schön dass du da bist!', [{
         label: "OK",
         className: "primary",
         callback: (popup) => {
@@ -26,8 +26,6 @@ WA.room.onLeaveZone('start', () => {
 
 
 //https://andigandhi.ga/content/jz/audio.php
-
-/*
 var jzMusic = WA.sound.loadSound("https://orf-live.ors-shoutcast.at/fm4-q2a");
 
 var loudMusic = {
@@ -50,11 +48,16 @@ var silentMusic = {
     mute : false
 }
 
+WA.onInit().then(() => {
+    jzMusic.play(loudMusic);
+})
+
+ /*
 WA.room.onEnterZone('music', () => {
     jzMusic.play(loudMusic);
 })
 
 WA.room.onLeaveZone('music', () => {
     jzMusic.play(silentMusic);
-})
-*/
+})*/
+
