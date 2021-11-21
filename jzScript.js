@@ -26,7 +26,7 @@ WA.room.onLeaveZone('start', () => {
 
 
 //https://andigandhi.ga/content/jz/audio.php
-var jzMusic = WA.sound.loadSound("https://orf-live.ors-shoutcast.at/fm4-q2a");
+var jzMusic = WA.sound.loadSound("https://andigandhi.ga/content/jz/audio.php");
 
 var loudMusic = {
     volume : 0.8,
