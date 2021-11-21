@@ -21,3 +21,38 @@ GuMoPopup = WA.room.onEnterZone('start', () => {
 WA.room.onLeaveZone('start', () => {
     GuMoPopup.close();
 });
+
+
+
+
+//https://andigandhi.ga/content/jz/audio.php
+var jzMusic = WA.sound.loadSound("https://orf-live.ors-shoutcast.at/fm4-q2a");
+
+var loudMusic = {
+    volume : 0.8,
+    loop : false,
+    rate : 1,
+    detune : 1,
+    delay : 0,
+    seek : 0,
+    mute : false
+}
+
+var silentMusic = {
+    volume : 0.2,
+    loop : false,
+    rate : 1,
+    detune : 1,
+    delay : 0,
+    seek : 0,
+    mute : false
+}
+
+WA.room.onEnterZone('music', () => {
+    jzMusic.play(loudMusic);
+})
+
+WA.room.onLeaveZone('music', () => {
+    jzMusic.play(silentMusic);
+})
+
