@@ -13,3 +13,9 @@ GuMoPopup = WA.onInit().then(() => {
 		triggerMessage.remove();
 	}, 5000)
 });
+
+
+WA.onInit().then(() => {
+	console.log('Player ID: ', WA.player.id);
+    console.log('Tags: ', WA.player.tags);
+})
