@@ -7,7 +7,7 @@ let GuMoPopup;
 
 // Open the popup when we enter a given zone
 GuMoPopup = WA.room.onEnterZone('start', () => {
-    WA.ui.openPopup("start-popup", 'Hallo '+WA.player.name+', schön dass du da bist!', [{
+    WA.ui.openPopup("start-popup", 'Hallo, schön dass du da bist!', [{
         label: "OK",
         className: "primary",
         callback: (popup) => {
