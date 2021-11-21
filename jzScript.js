@@ -13,11 +13,3 @@ GuMoPopup = WA.onInit().then(() => {
 		triggerMessage.remove();
 	}, 5000)
 });
-
-
-
-var jzMusic = WA.sound.loadSound("sound/outside.mp3");
-
-WA.onInit().then(() => {
-    jzMusic.play();
-})
