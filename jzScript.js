@@ -52,12 +52,11 @@ WA.onInit().then(() => {
     jzMusic.play(loudMusic);
 })
 
- /*
 WA.room.onEnterZone('music', () => {
     jzMusic.play(loudMusic);
 })
 
 WA.room.onLeaveZone('music', () => {
     jzMusic.play(silentMusic);
-})*/
+})
 
