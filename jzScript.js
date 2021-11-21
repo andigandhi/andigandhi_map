@@ -5,25 +5,24 @@
 
 let GuMoPopup;
 
-// Open the popup when we enter a given zone
+// Begrüßungsnachricht
 GuMoPopup = WA.onInit().then(() => {
-    WA.ui.openPopup("start-popup", 'Hallo '+WA.player.name+', schön dass du da bist!', [{
-        label: "OK",
-        className: "primary",
-        callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-        }
-    }]);
-});
+	const triggerMessage = WA.ui.displayActionMessage({
+		message: 'Hallo '+WA.player.name+', schön dass du da bist!',
+		callback: () => {
+			WA.chat.sendChatMessage("confirmed", "trigger message logic")
+		}
+	});
 
-// Close the popup when we leave the zone.
-WA.room.onLeaveZone('start', () => {
-    GuMoPopup.close();
+	setTimeout(() => {
+		triggerMessage.remove();
+	}, 2000)
 });
 
 
 
+
+/*
 
 //https://andigandhi.ga/content/jz/audio.php
 var jzMusic = WA.sound.loadSound("https://andigandhi.ga/content/jz/audio.php");
@@ -50,16 +49,14 @@ var silentMusic = {
 
 WA.onInit().then(() => {
     jzMusic.play(loudMusic);
-	WA.chat.sendChatMessage('init', 'andigandhi');
 })
 
 WA.room.onEnterZone('music', () => {
     jzMusic.play(loudMusic);
-	WA.chat.sendChatMessage('enter zone', 'andigandhi');
 })
 
 WA.room.onLeaveZone('music', () => {
     jzMusic.play(silentMusic);
-	WA.chat.sendChatMessage('exit zone', 'andigandhi');
 })
 
+*/
