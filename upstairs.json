@@ -328,7 +328,7 @@
                 {
                  "height":175,
                  "id":1,
-                 "name":"",
+                 "name":"Youtube-Livestream",
                  "properties":[
                         {
                          "name":"url",
@@ -336,7 +336,7 @@
                          "value":"https:\/\/www.youtube.com\/embed\/eE6CzpqZCAg?autoplay=1&start=11429"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"livestream kino",
                  "visible":true,
                  "width":284,
                  "x":168,

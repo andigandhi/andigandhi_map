@@ -383,7 +383,7 @@
                 {
                  "height":131.666666666667,
                  "id":4,
-                 "name":"",
+                 "name":"test-website",
                  "properties":[
                         {
                          "name":"url",
@@ -391,11 +391,11 @@
                          "value":"https:\/\/andigandhi.ga"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"website",
                  "visible":true,
                  "width":111.666666666667,
-                 "x":738,
-                 "y":622.666666666667
+                 "x":730,
+                 "y":629.333333333334
                 }],
          "opacity":1,
          "type":"objectgroup",
