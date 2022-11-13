@@ -131,7 +131,7 @@
                                 {
                                  "name":"jitsiRoom",
                                  "type":"string",
-                                 "value":"pauliGeburtstag180421"
+                                 "value":"digitalesJugge"
                                 }, 
                                 {
                                  "name":"jitsiUrl",
@@ -159,7 +159,7 @@
                                 {
                                  "name":"jitsiRoom",
                                  "type":"string",
-                                 "value":"pauliGeburtstag180421outside"
+                                 "value":"digitalesJuggeoutside"
                                 }, 
                                 {
                                  "name":"jitsiTrigger",
@@ -202,7 +202,7 @@
                                 {
                                  "name":"openWebsite",
                                  "type":"string",
-                                 "value":"https:\/\/andigandhi.ga\/content\/jz\/messenger.php"
+                                 "value":"https:\/\/grasserisen.de\/content\/jz\/messenger.php"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -220,7 +220,7 @@
                                 {
                                  "name":"openWebsite",
                                  "type":"string",
-                                 "value":"https:\/\/andigandhi.ga\/"
+                                 "value":"https:\/\/grasserisen.de\/"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -271,7 +271,7 @@
                                 {
                                  "name":"playAudio",
                                  "type":"string",
-                                 "value":"https:\/\/andigandhi.ga\/content\/jz\/audio.php"
+                                 "value":"https:\/\/grasserisen.de\/content\/jz\/audio.php"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
