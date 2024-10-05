@@ -276,7 +276,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/grasserisen.de\/content\/jz\/audio.php"
+                 "value":"https:\/\/andi.grasserisen.de\/content\/jz\/audio.php"
                 }],
          "type":"tilelayer",
          "visible":true,
